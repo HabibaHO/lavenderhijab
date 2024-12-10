@@ -1,0 +1,355 @@
+/* الأساسيات */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    direction: rtl; /* لضبط الكتابة من اليمين لليسار */
+}
+
+/* تنسيق الـ Header (القائمة العلوية) */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* تنسيق القسم الترحيبي (Home Section) */
+.welcome-section {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.welcome-section h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.welcome-section .btn {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.welcome-section .btn:hover {
+    background-color: #FF4500;
+}
+
+/* تنسيق صفحة المنتجات */
+.products-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.products-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.product {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.buy-btn {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background-color: #FF4500;
+}
+
+/* تنسيق الـ Footer (التذييل) */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* تنسيق صفحة المنتجات */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.products-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-images img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.add-to-cart-btn {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #FF4500;
+}
+
+/* الفوتر */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+/* تنسيق صفحة عربة التسوق */
+.cart-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.cart-item {
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-total {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF4500;
+}
+/* تنسيق صفحة الدفع */
+.checkout-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-section form label {
+    margin-bottom: 5px;
+}
+
+.checkout-section form input,
+.checkout-section form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.checkout-section form button {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-section form button:hover {
+    background-color: #FF4500;
+}
+
+/* تنسيق صفحة التأكيد */
+.confirmation-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.confirmation-section h1 {
+    color: green;
+    font-size: 24px;
+}
+
+.confirmation-section a {
+    color: #FF6347;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* تنسيق صفحة عربة التسوق */
+.cart-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+    border-radius: 8px;
+    max-width: 100px;
+}
+
+.cart-item button {
+    background-color: #FF6347;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-item button:hover {
+    background-color: #FF4500;
+}
+
+.cart-total {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#checkout-btn {
+    background-color: #32CD32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+#checkout-btn:hover {
+    background-color: #228B22;
+}

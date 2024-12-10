@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منتجاتنا</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- الهيدر (القائمة العلوية) -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="products.html">المنتجات</a></li>
+                <li><a href="cart.html">عربة التسوق</a></li>
+                <li><a href="checkout.html">إتمام الشراء</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- قسم المنتجات -->
+    <section class="products-section">
+        <h1>منتجاتنا</h1>
+
+        <!-- المنتج الأول -->
+        <div class="product">
+            <div class="product-images">
+                <img src="product1-1.jpg" alt="منتج 1 - صورة 1">
+                <img src="product1-2.jpg" alt="منتج 1 - صورة 2">
+            </div>
+            <h2>طرحة فاخرة</h2>
+            <p>هذه الطرحة تتميز بجودة عالية وتصميم فريد مناسب للمناسبات الخاصة.</p>
+            <p>السعر: 200 جنيه</p>
+            <button class="add-to-cart-btn" onclick="addToCart('طرحة فاخرة', 200)">أضف إلى عربة التسوق</button>
+        </div>
+
+        <!-- المنتج الثاني -->
+        <div class="product">
+            <div class="product-images">
+                <img src="product2-1.jpg" alt="منتج 2 - صورة 1">
+                <img src="product2-2.jpg" alt="منتج 2 - صورة 2">
+            </div>
+            <h2>طرحة أنيقة</h2>
+            <p>طرحة مصممة بدقة لراحة تامة، تناسب كل الأوقات.</p>
+            <p>السعر: 150 جنيه</p>
+            <button class="add-to-cart-btn" onclick="addToCart('طرحة أنيقة', 150)">أضف إلى عربة التسوق</button>
+        </div>
+
+        <!-- يمكنك إضافة المزيد من المنتجات بنفس الطريقة -->
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>&copy; 2024 براند طرح. كل الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
